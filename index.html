@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MedAI - Local Medical Report Analysis Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: 'hsl(0 0% 100%)',
+              foreground: 'hsl(222.2 84% 4.9%)',
+              card: 'hsl(0 0% 100%)',
+              'card-foreground': 'hsl(222.2 84% 4.9%)',
+              popover: 'hsl(0 0% 100%)',
+              'popover-foreground': 'hsl(222.2 84% 4.9%)',
+              primary: 'hsl(222.2 47.4% 11.2%)',
+              'primary-foreground': 'hsl(210 40% 98%)',
+              secondary: 'hsl(210 40% 96%)',
+              'secondary-foreground': 'hsl(222.2 84% 4.9%)',
+              muted: 'hsl(210 40% 96%)',
+              'muted-foreground': 'hsl(215.4 16.3% 46.9%)',
+              accent: 'hsl(210 40% 96%)',
+              'accent-foreground': 'hsl(222.2 84% 4.9%)',
+              destructive: 'hsl(0 84.2% 60.2%)',
+              'destructive-foreground': 'hsl(210 40% 98%)',
+              border: 'hsl(214.3 31.8% 91.4%)',
+              input: 'hsl(214.3 31.8% 91.4%)',
+              ring: 'hsl(222.2 84% 4.9%)',
+            },
+            borderRadius: {
+              lg: 'var(--radius)',
+              md: 'calc(var(--radius) - 2px)',
+              sm: 'calc(var(--radius) - 4px)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --radius: 0.5rem;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
