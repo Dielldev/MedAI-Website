@@ -1007,7 +1007,7 @@ export default function MedAILanding() {
                 <div className="bg-gradient-to-br from-slate-900 to-black text-green-400 p-4 sm:p-6 lg:p-8 rounded-xl font-mono text-xs sm:text-sm overflow-x-auto border border-slate-700 shadow-inner">
                   <div className="mb-2 sm:mb-3 text-slate-500"># Step 1: Clone the repository</div>
                   <div className="mb-4 sm:mb-6 text-white">
-                    <span className="text-blue-400">git</span> clone https://github.com/yourusername/medai.git
+                    <span className="text-blue-400">git</span> clone https://github.com/Dielldev/MedAI.git
                   </div>
                   <div className="mb-2 sm:mb-3 text-white">
                     <span className="text-blue-400">cd</span> medai
